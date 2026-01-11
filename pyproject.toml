@@ -1,0 +1,10 @@
+[project]
+name = "code-editing-agent"
+version = "0.1.0"
+description = "A simple yet powerful code-editing agent built with Python and the Anthropic API"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "anthropic>=0.40.0",
+    "python-dotenv>=1.0.0",
+]

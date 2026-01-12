@@ -2,8 +2,6 @@
 
 A simple yet powerful code-editing agent built with Python and the Anthropic API. This agent can read files, list directories, and edit files based on natural language instructions.
 
-This is a Python port of the Go implementation from [How to Build an Agent](https://ampcode.com/how-to-build-an-agent) by Thorsten Ball.
-
 ## The Core Insight
 
 **An "agent" is simply an LLM with access to tools, running in a loop.**
@@ -275,11 +273,6 @@ This Python implementation is functionally equivalent but:
 - Uses Python's `pathlib` for file operations
 - Uses dataclasses for type definitions
 - Has more detailed comments explaining the concepts
-
-## Credits
-
-- Original Go implementation and tutorial by [Thorsten Ball](https://ampcode.com/how-to-build-an-agent)
-- Built with the [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python)
 
 ## License
 
